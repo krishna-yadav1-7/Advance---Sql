@@ -1,0 +1,25 @@
+1️⃣ Isolation Levels & Concurrency Control (e.g., Phantom Reads, Dirty Reads, Lost Updates)
+2️⃣ Query Optimization & Indexing Strategies (e.g., Clustered vs. Non-Clustered Index, Covering Index)
+3️⃣ Slowly Changing Dimensions (SCD) in Data Warehousing (e.g., Type 1, Type 2, Type 3)
+4️⃣ Data Skew & Performance Bottlenecks in Distributed Processing (e.g., Skew in Spark, Uneven Kafka Partitioning)
+5️⃣ Change Data Capture (CDC) & Real-Time Data Ingestion (e.g., Handling Late Arriving Data, Upsert Strategies)
+
+
+6️⃣ Eventual Consistency vs. Strong Consistency in Distributed Databases (e.g., CAP Theorem, BASE vs. ACID)
+7️⃣ Window Functions & Complex Aggregations in SQL (e.g., Running Totals, LEAD/LAG, Sliding Windows)
+8️⃣ Data Partitioning & Bucketing Strategies (e.g., Hash Partitioning, Range Partitioning, Partition Pruning in Spark/Hive)
+9️⃣ Optimizing Joins in Big Data Processing (e.g., Broadcast Join, Shuffle Hash Join, Sort-Merge Join)
+🔟 Handling Late Arriving & Out-of-Order Events in Streaming Pipelines (e.g., Kafka, Flink, Spark Structured Streaming)
+
+
+1️⃣ Recursive Queries & Graph Processing in SQL (e.g., Common Table Expressions (CTEs), Hierarchical Data)
+2️⃣ Schema Evolution & Backward Compatibility in Data Lakes (e.g., Avro, Parquet, Delta Lake)
+3️⃣ Handling High Cardinality Data in OLAP Systems (e.g., Bitmap Indexes, Approximate Query Processing)
+4️⃣ Fault Tolerance & Checkpointing in Streaming Systems (e.g., Kafka Exactly-Once Semantics, Spark Checkpointing)
+5️⃣ Data Deduplication & Idempotency in ETL Pipelines (e.g., Primary Key Deduplication, Upserts with Merge)
+
+1️⃣ Adaptive Query Execution (AQE) in Apache Spark (e.g., Dynamic Partition Pruning, Skew Handling)
+2️⃣ Optimizing Delta Lake for High-Performance Data Processing (e.g., Z-Ordering, Vacuuming, Compaction)
+3️⃣ Idempotency in Data Pipelines (e.g., Handling Duplicates in Kafka/Spark, Exactly-Once Processing)
+4️⃣ Metadata Management & Data Lineage in Modern Data Lakes (e.g., Apache Atlas, Unity Catalog)
+5️⃣ Scalability Strategies for Large-Scale ETL Pipelines (e.g., Auto-Scaling, Parallel Processing, Load Balancing)
