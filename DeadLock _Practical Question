@@ -1,0 +1,34 @@
+CREATE TABLE Employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary INT
+);
+
+CREATE TABLE Departments (
+    dept_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    budget INT
+);
+
+
+INSERT INTO Employees VALUES (1, 'John', 5000);
+INSERT INTO Employees VALUES (2, 'Alice', 6000);
+
+INSERT INTO Departments VALUES (1, 'HR', 10000);
+INSERT INTO Departments VALUES (2, 'IT', 15000);
+
+
+
+START TRANSACTION;
+UPDATE Employees SET salary = salary + 1000 WHERE emp_id = 1;
+DO SLEEP(5); -- Simulate a delay
+UPDATE Departments SET budget = budget - 1000 WHERE dept_id = 2;
+COMMIT;
+
+
+
+START TRANSACTION;
+UPDATE Departments SET budget = budget - 500 WHERE dept_id = 2;
+DO SLEEP(5); -- Simulate a delay
+UPDATE Employees SET salary = salary + 500 WHERE emp_id = 1;
+COMMIT;
